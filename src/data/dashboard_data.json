@@ -1,0 +1,332 @@
+{
+  "generado": "agent_10a_data_web.py",
+  "kpis": {
+    "total_ventas": 130049.01,
+    "ticket_promedio": 26.01,
+    "total_pedidos": 5000,
+    "producto_top": "Combo oficina fit",
+    "categoria_top": "Combos",
+    "productos_80pct_ventas": 11,
+    "region_top": "Junín",
+    "ciudad_top": "Huancayo",
+    "distrito_top": "Cusco",
+    "calificacion_promedio": 4.04,
+    "tasa_recompra_pct": 36.98,
+    "tiempo_entrega_prom_min": 41.95,
+    "queja_top": "Ninguna",
+    "correlacion_entrega_calificacion": -0.4449,
+    "dia_top": "Viernes",
+    "temporada_top": "Primavera",
+    "mes_top": "Dic",
+    "filas_dataset": 5000
+  },
+  "ventas": {
+    "estadisticas": {
+      "total_ventas": 130049.01,
+      "ticket_promedio": 26.01,
+      "ticket_mediana": 20.61,
+      "ticket_std": 18.06,
+      "ticket_min": 6.0,
+      "ticket_max": 124.5,
+      "producto_top": "Combo oficina fit",
+      "categoria_top": "Combos",
+      "productos_80pct": 11
+    },
+    "por_producto": {
+      "labels": [
+        "Combo oficina fit",
+        "Pack almuerzo saludable",
+        "Bowl proteico andino",
+        "Sopa detox de verduras",
+        "Ensalada quinoa fit",
+        "Wrap integral de pollo",
+        "Hamburguesa vegana",
+        "Tostadas integrales con palta",
+        "Jugo antioxidante frutos rojos",
+        "Smoothie detox verde",
+        "Yogurt griego con granola",
+        "Postre saludable chia",
+        "Avena overnight",
+        "Snack frutos secos premium",
+        "Barra energética cacao"
+      ],
+      "values": [
+        18407.03,
+        15745.78,
+        11054.36,
+        10143.73,
+        8769.69,
+        8247.56,
+        7646.77,
+        7577.95,
+        7240.91,
+        6945.74,
+        6916.15,
+        6562.16,
+        5653.49,
+        4957.96,
+        4179.73
+      ]
+    },
+    "por_categoria": {
+      "labels": [
+        "Combos",
+        "Desayunos saludables",
+        "Veganos",
+        "Bebidas saludables",
+        "Proteicos",
+        "Snacks saludables",
+        "Ensaladas",
+        "Wraps",
+        "Postres saludables"
+      ],
+      "values": [
+        34152.81,
+        20147.59,
+        17790.5,
+        14186.65,
+        11054.36,
+        9137.69,
+        8769.69,
+        8247.56,
+        6562.16
+      ]
+    },
+    "pareto": {
+      "productos": [
+        "Combo oficina fit",
+        "Pack almuerzo saludable",
+        "Bowl proteico andino",
+        "Sopa detox de verduras",
+        "Ensalada quinoa fit",
+        "Wrap integral de pollo",
+        "Hamburguesa vegana",
+        "Tostadas integrales con palta",
+        "Jugo antioxidante frutos rojos",
+        "Smoothie detox verde",
+        "Yogurt griego con granola",
+        "Postre saludable chia",
+        "Avena overnight",
+        "Snack frutos secos premium",
+        "Barra energética cacao"
+      ],
+      "ventas": [
+        18407.03,
+        15745.78,
+        11054.36,
+        10143.73,
+        8769.69,
+        8247.56,
+        7646.77,
+        7577.95,
+        7240.91,
+        6945.74,
+        6916.15,
+        6562.16,
+        5653.49,
+        4957.96,
+        4179.73
+      ],
+      "pct_acum": [
+        14.15,
+        26.26,
+        34.76,
+        42.56,
+        49.3,
+        55.65,
+        61.53,
+        67.35,
+        72.92,
+        78.26,
+        83.58,
+        88.63,
+        92.97,
+        96.79,
+        100.0
+      ]
+    }
+  },
+  "geo": {
+    "por_region": {
+      "labels": [
+        "Junín",
+        "Lima",
+        "Cusco",
+        "La Libertad",
+        "Puno",
+        "Piura",
+        "Arequipa",
+        "Tacna",
+        "Ica",
+        "Apurímac",
+        "Cajamarca"
+      ],
+      "values": [
+        19629.13,
+        18419.89,
+        14155.41,
+        13581.41,
+        13425.75,
+        13181.84,
+        11570.74,
+        6923.53,
+        6872.81,
+        6293.68,
+        5994.82
+      ]
+    },
+    "por_ciudad": {
+      "labels": [
+        "Huancayo",
+        "Lima",
+        "Cusco",
+        "Trujillo",
+        "Piura",
+        "Arequipa",
+        "Tacna",
+        "Ica",
+        "San Román",
+        "Puno"
+      ],
+      "values": [
+        19629.13,
+        18419.89,
+        14155.41,
+        13581.41,
+        13181.84,
+        11570.74,
+        6923.53,
+        6872.81,
+        6762.5,
+        6663.25
+      ]
+    }
+  },
+  "clientes": {
+    "correlacion": -0.4449,
+    "satisfaccion_entrega": {
+      "niveles": [
+        "Alta",
+        "Media",
+        "Baja"
+      ],
+      "tiempos": [
+        39.37,
+        55.22,
+        59.38
+      ]
+    },
+    "quejas": {
+      "labels": [
+        "Ninguna",
+        "Error en pedido",
+        "Producto incompleto",
+        "Producto frío",
+        "Empaque dañado",
+        "Demora en entrega",
+        "Atención lenta"
+      ],
+      "counts": [
+        4357,
+        117,
+        116,
+        111,
+        105,
+        105,
+        89
+      ]
+    },
+    "valoracion": {
+      "productos": [
+        "Jugo antioxidante frutos rojos",
+        "Combo oficina fit",
+        "Bowl proteico andino",
+        "Smoothie detox verde",
+        "Pack almuerzo saludable",
+        "Sopa detox de verduras",
+        "Yogurt griego con granola",
+        "Tostadas integrales con palta",
+        "Barra energética cacao",
+        "Wrap integral de pollo"
+      ],
+      "puntuaciones": [
+        4.13,
+        4.13,
+        4.1,
+        4.07,
+        4.05,
+        4.03,
+        4.03,
+        4.02,
+        4.01,
+        4.0
+      ]
+    }
+  },
+  "temporal": {
+    "por_dia_semana": {
+      "dias": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ],
+      "ventas": [
+        15183.34,
+        15617.25,
+        14791.53,
+        15133.01,
+        28605.25,
+        25107.75,
+        15610.88
+      ]
+    },
+    "por_temporada": {
+      "temporadas": [
+        "Primavera",
+        "Invierno",
+        "Otoño",
+        "Verano"
+      ],
+      "ventas": [
+        33843.17,
+        33359.13,
+        32724.99,
+        30121.72
+      ]
+    },
+    "mensual": {
+      "meses": [
+        "Ene",
+        "Feb",
+        "Mar",
+        "Abr",
+        "May",
+        "Jun",
+        "Jul",
+        "Ago",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dic"
+      ],
+      "ventas": [
+        9859.4,
+        10100.15,
+        10162.17,
+        10624.19,
+        11553.35,
+        10547.45,
+        10449.44,
+        11608.2,
+        11301.49,
+        10585.6,
+        11343.51,
+        11914.06
+      ]
+    }
+  }
+}
